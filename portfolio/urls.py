@@ -7,12 +7,10 @@ from app import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
-    path('contact/', views.contact, name='contact'),
-    path('fashion/', views.fashion, name='fashion'),
-    path('about/', views.about, name='about'),
-    path('photography/', views.photography, name='photography'),
-    path('travel/', views.travel, name='travel'),
-    path('single/', views.single, name='single'),
+    path('contacto/', views.contacto, name='contacto'),
+    path('formacion/', views.formacion, name='formacion'),
+    path('informacion/', views.informacion, name='informacion'),
+    path('competencias/', views.competencias, name='competencias'),
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATICFILES_DIRS[0])
