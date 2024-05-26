@@ -1,0 +1,403 @@
+[
+    {
+      "model": "muebles.Inmueble",
+      "pk": 1,
+      "fields": {
+        "nombre": "Casa 1",
+        "direccion": "Dirección 1",
+        "descripcion": "Descripción 1",
+        "imagen": "casa.jpg",
+        "precio": 100000,
+        "comuna": 1,
+        "disponible": true,
+        "m2_construidos": 120.5,
+        "m2_terreno": 300.0,
+        "cantidad_estacionamientos": 2,
+        "cantidad_habitaciones": 3,
+        "cantidad_banos": 2,
+        "tipo_de_inmueble": "casa",
+        "propietario": 1
+      }
+    },
+    {
+      "model": "muebles.Inmueble",
+      "pk": 2,
+      "fields": {
+        "nombre": "Departamento 1",
+        "direccion": "Dirección 2",
+        "descripcion": "Descripción 2",
+        "imagen": "casa.jpg",
+        "precio": 80000,
+        "comuna": 2,
+        "disponible": true,
+        "m2_construidos": 80.0,
+        "m2_terreno": 0.0,
+        "cantidad_estacionamientos": 1,
+        "cantidad_habitaciones": 2,
+        "cantidad_banos": 1,
+        "tipo_de_inmueble": "departamento",
+        "propietario": 2
+      }
+    },
+    {
+      "model": "muebles.Inmueble",
+      "pk": 3,
+      "fields": {
+        "nombre": "Parcela 1",
+        "direccion": "Dirección 3",
+        "descripcion": "Descripción 3",
+        "imagen": "casa.jpg",
+        "precio": 150000,
+        "comuna": 3,
+        "disponible": false,
+        "m2_construidos": 0.0,
+        "m2_terreno": 1000.0,
+        "cantidad_estacionamientos": 0,
+        "cantidad_habitaciones": 0,
+        "cantidad_banos": 0,
+        "tipo_de_inmueble": "parcela",
+        "propietario": 3
+      }
+    },
+    {
+      "model": "muebles.Inmueble",
+      "pk": 4,
+      "fields": {
+        "nombre": "Casa 2",
+        "direccion": "Dirección 4",
+        "descripcion": "Descripción 4",
+        "imagen": "casa.jpg",
+        "precio": 120000,
+        "comuna": 4,
+        "disponible": true,
+        "m2_construidos": 150.0,
+        "m2_terreno": 400.0,
+        "cantidad_estacionamientos": 3,
+        "cantidad_habitaciones": 4,
+        "cantidad_banos": 3,
+        "tipo_de_inmueble": "casa",
+        "propietario": 4
+      }
+    },
+    {
+      "model": "muebles.Inmueble",
+      "pk": 5,
+      "fields": {
+        "nombre": "Departamento 2",
+        "direccion": "Dirección 5",
+        "descripcion": "Descripción 5",
+        "imagen": "casa.jpg",
+        "precio": 90000,
+        "comuna": 5,
+        "disponible": true,
+        "m2_construidos": 100.0,
+        "m2_terreno": 0.0,
+        "cantidad_estacionamientos": 2,
+        "cantidad_habitaciones": 3,
+        "cantidad_banos": 2,
+        "tipo_de_inmueble": "departamento",
+        "propietario": 1
+      }
+    },
+    {
+      "model": "muebles.Inmueble",
+      "pk": 6,
+      "fields": {
+        "nombre": "Parcela 2",
+        "direccion": "Dirección 6",
+        "descripcion": "Descripción 6",
+        "imagen": "casa.jpg",
+        "precio": 200000,
+        "comuna": 6,
+        "disponible": false,
+        "m2_construidos": 0.0,
+        "m2_terreno": 1200.0,
+        "cantidad_estacionamientos": 0,
+        "cantidad_habitaciones": 0,
+        "cantidad_banos": 0,
+        "tipo_de_inmueble": "parcela",
+        "propietario": 3
+      }
+    },
+    {
+      "model": "muebles.Inmueble",
+      "pk": 7,
+      "fields": {
+        "nombre": "Casa 3",
+        "direccion": "Dirección 7",
+        "descripcion": "Descripción 7",
+        "imagen": "casa.jpg",
+        "precio": 110000,
+        "comuna": 7,
+        "disponible": true,
+        "m2_construidos": 130.0,
+        "m2_terreno": 350.0,
+        "cantidad_estacionamientos": 2,
+        "cantidad_habitaciones": 3,
+        "cantidad_banos": 2,
+        "tipo_de_inmueble": "casa",
+        "propietario": 1
+      }
+    },
+    {
+      "model": "muebles.Inmueble",
+      "pk": 8,
+      "fields": {
+        "nombre": "Departamento 3",
+        "direccion": "Dirección 8",
+        "descripcion": "Descripción 8",
+        "imagen": "casa.jpg",
+        "precio": 95000,
+        "comuna": 8,
+        "disponible": true,
+        "m2_construidos": 90.0,
+        "m2_terreno": 0.0,
+        "cantidad_estacionamientos": 1,
+        "cantidad_habitaciones": 2,
+        "cantidad_banos": 1,
+        "tipo_de_inmueble": "departamento",
+        "propietario": 3
+      }
+    },
+    {
+      "model": "muebles.Inmueble",
+      "pk": 9,
+      "fields": {
+        "nombre": "Parcela 3",
+        "direccion": "Dirección 9",
+        "descripcion": "Descripción 9",
+        "imagen": "casa.jpg",
+        "precio": 180000,
+        "comuna": 9,
+        "disponible": false,
+        "m2_construidos": 0.0,
+        "m2_terreno": 1500.0,
+        "cantidad_estacionamientos": 0,
+        "cantidad_habitaciones": 0,
+        "cantidad_banos": 0,
+        "tipo_de_inmueble": "parcela",
+        "propietario": 1
+      }
+    },
+    {
+      "model": "muebles.Inmueble",
+      "pk": 10,
+      "fields": {
+        "nombre": "Casa 4",
+        "direccion": "Dirección 10",
+        "descripcion": "Descripción 10",
+        "imagen": "casa.jpg",
+        "precio": 130000,
+        "comuna": 10,
+        "disponible": true,
+        "m2_construidos": 140.0,
+        "m2_terreno": 380.0,
+        "cantidad_estacionamientos": 2,
+        "cantidad_habitaciones": 4,
+        "cantidad_banos": 3,
+        "tipo_de_inmueble": "casa",
+        "propietario": 4
+      }
+    },
+    {
+      "model": "muebles.Inmueble",
+      "pk": 11,
+      "fields": {
+        "nombre": "Departamento 4",
+        "direccion": "Dirección 11",
+        "descripcion": "Descripción 11",
+        "imagen": "casa.jpg",
+        "precio": 85000,
+        "comuna": 11,
+        "disponible": true,
+        "m2_construidos": 85.0,
+        "m2_terreno": 0.0,
+        "cantidad_estacionamientos": 1,
+        "cantidad_habitaciones": 2,
+        "cantidad_banos": 1,
+        "tipo_de_inmueble": "departamento",
+        "propietario": 3
+      }
+    },
+    {
+      "model": "muebles.Inmueble",
+      "pk": 12,
+      "fields": {
+        "nombre": "Parcela 4",
+        "direccion": "Dirección 12",
+        "descripcion": "Descripción 12",
+        "imagen": "casa.jpg",
+        "precio": 220000,
+        "comuna": 12,
+        "disponible": false,
+        "m2_construidos": 0.0,
+        "m2_terreno": 2000.0,
+        "cantidad_estacionamientos": 0,
+        "cantidad_habitaciones": 0,
+        "cantidad_banos": 0,
+        "tipo_de_inmueble": "parcela",
+        "propietario": 2
+      }
+    },
+    {
+      "model": "muebles.Inmueble",
+      "pk": 13,
+      "fields": {
+        "nombre": "Casa 5",
+        "direccion": "Dirección 13",
+        "descripcion": "Descripción 13",
+        "imagen": "casa.jpg",
+        "precio": 125000,
+        "comuna": 13,
+        "disponible": true,
+        "m2_construidos": 160.0,
+        "m2_terreno": 420.0,
+        "cantidad_estacionamientos": 3,
+        "cantidad_habitaciones": 4,
+        "cantidad_banos": 3,
+        "tipo_de_inmueble": "casa",
+        "propietario": 3
+      }
+    },
+    {
+      "model": "muebles.Inmueble",
+      "pk": 14,
+      "fields": {
+        "nombre": "Departamento 5",
+        "direccion": "Dirección 14",
+        "descripcion": "Descripción 14",
+        "imagen": "casa.jpg",
+        "precio": 88000,
+        "comuna": 14,
+        "disponible": true,
+        "m2_construidos": 95.0,
+        "m2_terreno": 0.0,
+        "cantidad_estacionamientos": 1,
+        "cantidad_habitaciones": 2,
+        "cantidad_banos": 1,
+        "tipo_de_inmueble": "departamento",
+        "propietario": 4
+      }
+    },
+    {
+      "model": "muebles.Inmueble",
+      "pk": 15,
+      "fields": {
+        "nombre": "Parcela 5",
+        "direccion": "Dirección 15",
+        "descripcion": "Descripción 15",
+        "imagen": "casa.jpg",
+        "precio": 190000,
+        "comuna": 15,
+        "disponible": false,
+        "m2_construidos": 0.0,
+        "m2_terreno": 1800.0,
+        "cantidad_estacionamientos": 0,
+        "cantidad_habitaciones": 0,
+        "cantidad_banos": 0,
+        "tipo_de_inmueble": "parcela",
+        "propietario": 3
+      }
+    },
+    {
+      "model": "muebles.Inmueble",
+      "pk": 16,
+      "fields": {
+        "nombre": "Casa 6",
+        "direccion": "Dirección 16",
+        "descripcion": "Descripción 16",
+        "imagen": "casa.jpg",
+        "precio": 135000,
+        "comuna": 16,
+        "disponible": true,
+        "m2_construidos": 170.0,
+        "m2_terreno": 450.0,
+        "cantidad_estacionamientos": 3,
+        "cantidad_habitaciones": 4,
+        "cantidad_banos": 3,
+        "tipo_de_inmueble": "casa",
+        "propietario": 1
+      }
+    },
+    {
+      "model": "muebles.Inmueble",
+      "pk": 17,
+      "fields": {
+        "nombre": "Departamento 6",
+        "direccion": "Dirección 17",
+        "descripcion": "Descripción 17",
+        "imagen": "casa.jpg",
+        "precio": 92000,
+        "comuna": 17,
+        "disponible": true,
+        "m2_construidos": 100.0,
+        "m2_terreno": 0.0,
+        "cantidad_estacionamientos": 2,
+        "cantidad_habitaciones": 3,
+        "cantidad_banos": 2,
+        "tipo_de_inmueble": "departamento",
+        "propietario": 3
+      }
+    },
+    {
+      "model": "muebles.Inmueble",
+      "pk": 18,
+      "fields": {
+        "nombre": "Parcela 6",
+        "direccion": "Dirección 18",
+        "descripcion": "Descripción 18",
+        "imagen": "casa.jpg",
+        "precio": 210000,
+        "comuna": 18,
+        "disponible": false,
+        "m2_construidos": 0.0,
+        "m2_terreno": 2500.0,
+        "cantidad_estacionamientos": 0,
+        "cantidad_habitaciones": 0,
+        "cantidad_banos": 0,
+        "tipo_de_inmueble": "parcela",
+        "propietario": 4
+      }
+    },
+    {
+      "model": "muebles.Inmueble",
+      "pk": 19,
+      "fields": {
+        "nombre": "Casa 7",
+        "direccion": "Dirección 19",
+        "descripcion": "Descripción 19",
+        "imagen": "casa.jpg",
+        "precio": 140000,
+        "comuna": 19,
+        "disponible": true,
+        "m2_construidos": 180.0,
+        "m2_terreno": 480.0,
+        "cantidad_estacionamientos": 3,
+        "cantidad_habitaciones": 4,
+        "cantidad_banos": 3,
+        "tipo_de_inmueble": "casa",
+        "propietario": 3
+      }
+    },
+    {
+      "model": "muebles.Inmueble",
+      "pk": 20,
+      "fields": {
+        "nombre": "Departamento 7",
+        "direccion": "Dirección 20",
+        "descripcion": "Descripción 20",
+        "imagen": "casa.jpg",
+        "precio": 97000,
+        "comuna": 20,
+        "disponible": true,
+        "m2_construidos": 105.0,
+        "m2_terreno": 0.0,
+        "cantidad_estacionamientos": 2,
+        "cantidad_habitaciones": 3,
+        "cantidad_banos": 2,
+        "tipo_de_inmueble": "departamento",
+        "propietario": 1
+      }
+    }
+  ]
+  

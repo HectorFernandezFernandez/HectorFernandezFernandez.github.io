@@ -1,0 +1,17 @@
+{% extends 'base_muebles.html' %}
+
+{% block 'content' %}
+    <h1 class="text-center">Editar Perfil</h1>
+    <div class="container" style="margin-top: 20px;">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <form method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {{ formulario.as_p }}
+                    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+                    <a href="{% url 'index_muebles' %}" class="btn btn-secondary">Cancelar</a>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

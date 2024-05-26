@@ -1,0 +1,31 @@
+{% extends 'base_muebles.html' %}
+
+{% block 'content' %}
+{% csrf_token %}
+    <div class="container" style="margin-top: 20px;">
+        <div class="row">
+            <div class="container-fluid col-md-4">
+                <img src="//media/{{ inmueble.imagen }}" class="img-fluid card-img-top" alt="...">
+
+            </div>
+            <div class="col-md-4 mx-auto align-content-center" style="text-align: left;">
+                <h2>{{ inmueble.nombre }}</h2>
+                <p>{{ inmueble.descripcion }}</p>
+                <p><strong>Precio: </strong> ${{ inmueble.precio }}</p>
+                <p><strong>Comuna: </strong> {{ inmueble.comuna }}</p>
+                <p><strong>Disponible: </strong> {{ inmueble.disponible }}</p>
+                <p><strong>Metros cuadrados construidos: </strong> {{ inmueble.m2_construidos }}</p>
+                <p><strong>Metro cuadrados totales: </strong> {{ inmueble.m2_terreno }}</p>
+                <p><strong>Cantidad de estacionamientos: </strong> {{ inmueble.cantidad_estacionamientos }}</p>
+                <p><strong>Cantidad de habitaciones: </strong> {{ inmueble.cantidad_habitaciones }}</p>
+                <p><strong>Cantidad de baños: </strong> {{ inmueble.cantidad_banos }}</p>
+                <p><strong>Tipo de inmueble: </strong> {{ inmueble.tipo_de_inmueble }}</p>
+                <p><strong>Propietario: </strong> {{ inmueble.propietario }}</p>
+                {% comment %} <a href={% url "solicitud_arriendo" inmueble.id %} class="btn btn-primary">Solicitud de arriendo</a> {% endcomment %}
+                <a href="{% url 'index_muebles' %}" class="btn btn-primary">Volver a la pagina principal</a>
+                <p></p>
+                <a href={% url "editar_inmueble" inmueble.id user.usuario.id %} class="btn btn-primary">Editar inmueble</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

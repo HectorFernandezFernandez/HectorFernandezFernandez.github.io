@@ -1,0 +1,49 @@
+{% extends 'base_flan.html' %}
+
+{% block 'content' %}
+{% csrf_token %}
+{% if flan.is_private %}
+    {% if user.is_authenticated %}
+    <div class="container" style="margin-top: 20px;">
+        <div class="row">
+            <div class="container-fluid col-md-4">
+                <img src="{{ flan.image_url }}" class="img-fluid" alt="{{ flan.name }}">
+            </div>
+            <div class="col-md-4 mx-auto align-content-center" style="text-align: left;">
+                <h2>{{ flan.name }}</h2>
+                <h2>{{ flan.name }}</h2>
+                <p>{{ flan.description }}</p>
+                <p><strong>Precio:</strong> ${{ flan.price }}</p>
+                <p><strong>Stock:</strong> {{ flan.stock }}</p>
+                <a href="{% url 'index_flan' %}" class="btn btn-primary">Volver a la lista de flanes</a>
+                <form method="post" action="{% url 'add_to_cart' flan.id %}">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-success">Agregar al carrito</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    {% else %}
+    <p>Para poder ver estos flanes debe iniciar sesión</p>
+    {% endif %}
+{% else %}
+<div class="container" style="margin-top: 20px;">
+    <div class="row">
+        <div class="container-fluid col-md-4">
+            <img src="{{ flan.image_url }}" class="img-fluid" alt="{{ flan.name }}">
+        </div>
+        <div class="col-md-4 mx-auto align-content-center" style="text-align: left;">
+            <h2>{{ flan.name }}</h2>
+            <p>{{ flan.description }}</p>
+            <p><strong>Precio:</strong> ${{ flan.price }}</p>
+            <p><strong>Stock:</strong> {{ flan.stock }}</p>
+            <a href="{% url 'index_flans' %}" class="btn btn-primary">Volver a la lista de flanes</a>
+            <form method="post" action="{% url 'add_to_cart' flan.id %}">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-success">Agregar al carrito</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endblock 'content' %}

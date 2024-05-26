@@ -1,0 +1,35 @@
+{% extends 'base_flan.html' %}
+
+{% block 'content' %}
+    <h1>Tu carrito</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Imagen</th>
+                <th>Cantidad</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in cart_items %}
+            <tr>
+                <td>{{ item.flan.name }}</td>
+                <td>${{ item.flan.price }}</td>
+                <td>
+                    <img src="{{ item.flan.image_url }}" class="img-fluid" alt="{{ item.flan.name }}" style="width: 50px;">
+                </td>
+                <td>{{ item.quantity }}</td>
+                <td>
+                    <form action="{% url 'remove_from_cart' cart_item_id=item.id %}" method="post">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-danger">Quitar</button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <p>El precio total es de {{ total_price }}</p>
+{% endblock 'content' %}

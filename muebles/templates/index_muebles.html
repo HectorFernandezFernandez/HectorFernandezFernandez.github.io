@@ -1,0 +1,19 @@
+{% extends 'base_muebles.html' %}
+
+{% block 'content' %}
+<div class="container mt-5">
+    {% if messages %}
+        <div class="alert alert-warning">
+            {% for message in messages %}
+                <p>{{ message }}</p>
+            {% endfor %}
+        </div>
+    {% endif %}
+    <h1 class="mb-3">Página Principal</h1>
+    <p>Bienvenido a nuestro sitio de arriendo de inmuebles. Aquí podrás encontrar una amplia selección de propiedades disponibles para arrendar, debes registrarte o iniciar sesión para poder ver los inmuebles por temas de seguridad</p>
+</div>
+{% endblock %}
+
+{% block 'title' %}
+    Bienvenido a desafio hito 1
+{% endblock %}

@@ -1,0 +1,19 @@
+[
+    {"model": "muebles.Region", "pk": 1, "fields": {"nombre": "Arica y Parinacota"}},
+    {"model": "muebles.Region", "pk": 2, "fields": {"nombre": "Tarapacá"}},
+    {"model": "muebles.Region", "pk": 3, "fields": {"nombre": "Antofagasta"}},
+    {"model": "muebles.Region", "pk": 4, "fields": {"nombre": "Atacama"}},
+    {"model": "muebles.Region", "pk": 5, "fields": {"nombre": "Coquimbo"}},
+    {"model": "muebles.Region", "pk": 6, "fields": {"nombre": "Valparaíso"}},
+    {"model": "muebles.Region", "pk": 7, "fields": {"nombre": "Región Metropolitana"}},
+    {"model": "muebles.Region", "pk": 8, "fields": {"nombre": "Libertador General Bernardo O'Higgins"}},
+    {"model": "muebles.Region", "pk": 9, "fields": {"nombre": "Maule"}},
+    {"model": "muebles.Region", "pk": 10, "fields": {"nombre": "Ñuble"}},
+    {"model": "muebles.Region", "pk": 11, "fields": {"nombre": "Biobío"}},
+    {"model": "muebles.Region", "pk": 12, "fields": {"nombre": "La Araucanía"}},
+    {"model": "muebles.Region", "pk": 13, "fields": {"nombre": "Los Ríos"}},
+    {"model": "muebles.Region", "pk": 14, "fields": {"nombre": "Los Lagos"}},
+    {"model": "muebles.Region", "pk": 15, "fields": {"nombre": "Aysén del General Carlos Ibáñez del Campo"}},
+    {"model": "muebles.Region", "pk": 16, "fields": {"nombre": "Magallanes y de la Antártica Chilena"}}
+  ]
+  

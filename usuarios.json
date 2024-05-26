@@ -1,0 +1,106 @@
+[
+    {
+        "model": "muebles.usuario",
+        "pk": 5,
+        "fields": {
+            "nombres": "usuario",
+            "apellidos": "cinco",
+            "rut": 11111,
+            "direccion": "Calle Falsa 123",
+            "telefono": "123456789",
+            "tipo_usuario": "arrendador",
+            "correo_electronico": "correo_cinco@correo.cl"
+        }
+    },
+    {
+        "model": "muebles.usuario",
+        "pk": 6,
+        "fields": {
+            "nombres": "usuario",
+            "apellidos": "seis",
+            "rut": 22222,
+            "direccion": "Avenida Principal 456",
+            "telefono": "987654321",
+            "tipo_usuario": "arrendador",
+            "correo_electronico": "correo_seis@correo.cl"
+        }
+    },
+    {
+        "model": "muebles.usuario",
+        "pk": 7,
+        "fields": {
+            "nombres": "usuario",
+            "apellidos": "siete",
+            "rut": 33333,
+            "direccion": "Calle Secundaria 789",
+            "telefono": "456789123",
+            "tipo_usuario": "arrendador",
+            "correo_electronico": "correo_siete@correo.cl"
+        }
+    },
+    {
+        "model": "muebles.usuario",
+        "pk": 8,
+        "fields": {
+            "nombres": "usuario",
+            "apellidos": "ocho",
+            "rut": 444444,
+            "direccion": "Avenida Central 987",
+            "telefono": "321654987",
+            "tipo_usuario": "arrendador",
+            "correo_electronico": "correo_ocho@correo.cl"
+        }
+    },
+    {
+        "model": "muebles.usuario",
+        "pk": 9,
+        "fields": {
+            "nombres": "usuario",
+            "apellidos": "nueve",
+            "rut": 5555,
+            "direccion": "Calle Principal 654",
+            "telefono": "789123456",
+            "tipo_usuario": "arrendador",
+            "correo_electronico": "correo_nueve@correo.cl"
+        }
+    },
+    {
+        "model": "muebles.usuario",
+        "pk": 10,
+        "fields": {
+            "nombres": "usuario",
+            "apellidos": "diez",
+            "rut": 66666,
+            "direccion": "Avenida Secundaria 321",
+            "telefono": "654987321",
+            "tipo_usuario": "arrendador",
+            "correo_electronico": "correo_diez@correo.cl"
+        }
+    },
+    {
+        "model": "muebles.usuario",
+        "pk": 11,
+        "fields": {
+            "nombres": "usuario",
+            "apellidos": "once",
+            "rut": 77777,
+            "direccion": "Calle Falsa 789",
+            "telefono": "987321654",
+            "tipo_usuario": "arrendador",
+            "correo_electronico": "correo_once@correo.cl"
+        }
+    },
+    {
+        "model": "muebles.usuario",
+        "pk": 12,
+        "fields": {
+            "nombres": "usuario",
+            "apellidos": "doce",
+            "rut": 88888,
+            "direccion": "Avenida Principal 987",
+            "telefono": "321987654",
+            "tipo_usuario": "arrendador",
+            "correo_electronico": "correo_doce@correo.cl"
+        }
+    }
+]

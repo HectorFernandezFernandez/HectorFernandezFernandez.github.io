@@ -1,0 +1,20 @@
+{% extends 'base_flan.html' %}
+
+{% block 'content' %}
+<div class="container">
+    <div class="row">
+{% for flan in flanes %}
+        <div class="col-sm-3">
+            <img src="{{flan.image_url}}" class="img-fluid card-img-top" alt="...">
+            <h5 class="card-title">{{flan.name}}</h5>
+            <p class="card-text">{{flan.description}}</p>
+            <a href={% url "flan_detail" flan.id %} class="btn btn-primary">Detalle</a>
+        </div>
+{% endfor %}
+    </div>
+</div>
+{% endblock %}
+
+{% block 'title'%}
+    Bienvenido a onlyflans
+{% endblock %}

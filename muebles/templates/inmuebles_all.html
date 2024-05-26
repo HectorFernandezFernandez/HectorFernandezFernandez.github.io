@@ -1,0 +1,24 @@
+{% extends 'base_muebles.html' %}
+
+{% block 'content' %}
+<h1 class="text-center">Inmuebles disponibles</h1>
+<div class="container">
+    <div class="row">
+{% for inm in inmuebles %}
+    {% if inm.disponible == True%}
+        <div class="col-sm-3">
+            <img src="//media/{{inm.imagen}}" class="img-fluid card-img-top" alt="...">
+            <h5 class="card-title">{{inm.nombre}}</h5>
+            <p class="card-text">{{inm.descripcion}}</p>
+            <a href={% url "detalle_inmueble" inm.id %} class="btn btn-primary">Detalle</a>
+            <br><br>
+        </div>
+    {% endif %}
+{% endfor %}
+    </div>
+</div>
+{% endblock %}
+
+{% block 'title'%}
+    Bienvenido a desafio hito 1
+{% endblock %}

@@ -6,7 +6,9 @@
 		<div class="overlay"></div>
 		<div class="js-fullheight d-flex justify-content-center align-items-center">
 			<div class="col-md-8 text text-center">
-				<div class="img" style="background-image: url(../static/images/author.jpg);"></div>
+				<div>
+					<img src="../static/images/author.jpg" alt="Imagen de autor" style="height: 120px; width: 100px; border-radius: 50%;">
+				</div>
 				<div class="desc">
 					<h2 class="subheading">Hola mi nombre es</h2>
 					<h1 class="mb-4">Héctor Fernández Fernández</h1>
@@ -27,44 +29,83 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="blog-entry ftco-animate">
-						<a href="#" class="img img-2" style="background-image: url(../static/images/image_1.jpg);"></a>
 						<div class="text text-2 pt-2 mt-3">
-							<span class="category mb-3 d-block"><a href="#">Agente custumer succes espezializado de datos</a></span>
-							<h3 class="mb-4"><a href="#">Me desempeño como encargado de datos y tickets de clientes</a></h3>
+							<span class="category mb-3 d-block"><a >Agente custumer succes espezializado de datos</a></span>
+							<h3 class="mb-4"><a >Me desempeño como encargado de datos y tickets de clientes</a></h3>
 							<p class="mb-4">Estoy en este cargo desde noviembre del 2023 a la fecha, donde realizo manejo de bases de datos, automatizaciones, desarrollo en GCP y ademas tomo la gestion de tickets de clientes</p>
 							<div class="half">
-								<p><a href="#" class="btn py-2">Más información <span class="ion-ios-arrow-forward"></span></a></p>
+								{% comment %} <p><a  class="btn py-2">Más información <span class="ion-ios-arrow-forward"></span></a></p> {% endcomment %}
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="blog-entry ftco-animate">
-						<a href="#" class="img img-2" style="background-image: url(../static/images/image_2.jpg);"></a>
 						<div class="text text-2 pt-2 mt-3">
-							<span class="category mb-3 d-block"><a href="#">Asistente de proyectos</a></span>
-							<h3 class="mb-4"><a href="#">Practica profesional en proyectos de telecomunicaciones</a></h3>
+							<span class="category mb-3 d-block"><a >Asistente de proyectos</a></span>
+							<h3 class="mb-4"><a >Practica profesional en proyectos de telecomunicaciones</a></h3>
 							<p class="mb-4">Estaba a cargo de lectura, cubicación y analisis de planos de proyectos inmobiliarios</p>
 							<div class="half">
-								<p><a href="#" class="btn py-2">Más información <span class="ion-ios-arrow-forward"></span></a></p>
+								{% comment %} <p><a  class="btn py-2">Más información <span class="ion-ios-arrow-forward"></span></a></p> {% endcomment %}
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="blog-entry ftco-animate">
-						<a href="#" class="img img-2" style="background-image: url(../static/images/image_2.jpg);"></a>
 						<div class="text text-2 pt-2 mt-3">
-							<span class="category mb-3 d-block"><a href="#">Trabajo de titulo</a></span>
-							<h3 class="mb-4"><a href="#">Automatizacion de empaquetado de productos mediante robotica industrial, IIoT y lenguajes de programación</a></h3>
+							<span class="category mb-3 d-block"><a >Trabajo de titulo</a></span>
+							<h3 class="mb-4"><a >Automatizacion de empaquetado de productos mediante robotica industrial, IIoT y lenguajes de programación</a></h3>
 							<p class="mb-4">Desarrolle un proyecto desde 0 con un manipulador robotico industrial encargado de armar productos comprados a traves de una aplicacion web</p>
 							<div class="half">
-								<p><a href="#" class="btn py-2">Más información <span class="ion-ios-arrow-forward"></span></a></p>
+								{% comment %} <p><a  class="btn py-2">Más información <span class="ion-ios-arrow-forward"></span></a></p> {% endcomment %}
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			
+			<div class="row justify-content-center mb-5 pb-2">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h2 class="mb-4">Proyectos de aplicaciones web con django</h2>
+					<p>A lo largo del curso FullStack Python he desarrollo disitntos proyectos</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="blog-entry ftco-animate">
+						<div class="text text-2 pt-2 mt-3">
+							<span class="category mb-3 d-block"><a href="{% url 'index_flans' %}">Pagina de flanes</a></span>
+							<h3 class="mb-4"><a >En esta pagina se pueden ver y agregar flanes a una base de datos</a></h3>
+							<div class="half">
+								<p><a class="btn py-2" href="{% url 'index_flans' %}">Más información <span class="ion-ios-arrow-forward"></span></a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="blog-entry ftco-animate">
+						<div class="text text-2 pt-2 mt-3">
+							<span class="category mb-3 d-block"><a href="{% url 'index_muebles' %}" >Pagina de inmuebles</a></span>
+							<h3 class="mb-4"><a >En esta pagina se pueden ver y agregar inmuebles</a></h3>
+							<div class="half">
+								<p><a href="{% url 'index_muebles' %}" class="btn py-2">Más información <span class="ion-ios-arrow-forward"></span></a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="blog-entry ftco-animate">
+						<div class="text text-2 pt-2 mt-3">
+							<span class="category mb-3 d-block"><a href="{% url 'index_viajes_chile' %}">Pagina estatica con bootstrap</a></span>
+							<div class="half">
+								<p><a href="{% url 'index_viajes_chile' %}" class="btn py-2">Más información <span class="ion-ios-arrow-forward"></span></a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</div>
 </section>
 

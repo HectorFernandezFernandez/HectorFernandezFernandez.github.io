@@ -1,0 +1,163 @@
+[
+    {
+      "model": "muebles.Comuna",
+      "pk": 2,
+      "fields": {
+        "nombre": "Comuna 2",
+        "region": 2
+      }
+    },
+    {
+      "model": "muebles.Comuna",
+      "pk": 2,
+      "fields": {
+        "nombre": "Comuna 2",
+        "region": 2
+      }
+    },
+    {
+      "model": "muebles.Comuna",
+      "pk": 3,
+      "fields": {
+        "nombre": "Comuna 3",
+        "region": 3
+      }
+    },
+    {
+      "model": "muebles.Comuna",
+      "pk": 4,
+      "fields": {
+        "nombre": "Comuna 4",
+        "region": 4
+      }
+    },
+    {
+      "model": "muebles.Comuna",
+      "pk": 5,
+      "fields": {
+        "nombre": "Comuna 5",
+        "region": 5
+      }
+    },
+    {
+      "model": "muebles.Comuna",
+      "pk": 6,
+      "fields": {
+        "nombre": "Comuna 6",
+        "region": 6
+      }
+    },
+    {
+      "model": "muebles.Comuna",
+      "pk": 7,
+      "fields": {
+        "nombre": "Comuna 7",
+        "region": 7
+      }
+    },
+    {
+      "model": "muebles.Comuna",
+      "pk": 8,
+      "fields": {
+        "nombre": "Comuna 8",
+        "region": 8
+      }
+    },
+    {
+      "model": "muebles.Comuna",
+      "pk": 9,
+      "fields": {
+        "nombre": "Comuna 9",
+        "region": 9
+      }
+    },
+    {
+      "model": "muebles.Comuna",
+      "pk": 10,
+      "fields": {
+        "nombre": "Comuna 10",
+        "region": 10
+      }
+    },
+    {
+      "model": "muebles.Comuna",
+      "pk": 11,
+      "fields": {
+        "nombre": "Comuna 11",
+        "region": 11
+      }
+    },
+    {
+      "model": "muebles.Comuna",
+      "pk": 12,
+      "fields": {
+        "nombre": "Comuna 12",
+        "region": 12
+      }
+    },
+    {
+      "model": "muebles.Comuna",
+      "pk": 13,
+      "fields": {
+        "nombre": "Comuna 13",
+        "region": 13
+      }
+    },
+    {
+      "model": "muebles.Comuna",
+      "pk": 14,
+      "fields": {
+        "nombre": "Comuna 14",
+        "region": 14
+      }
+    },
+    {
+      "model": "muebles.Comuna",
+      "pk": 15,
+      "fields": {
+        "nombre": "Comuna 15",
+        "region": 15
+      }
+    },
+    {
+      "model": "muebles.Comuna",
+      "pk": 16,
+      "fields": {
+        "nombre": "Comuna 16",
+        "region": 16
+      }
+    },
+    {
+      "model": "muebles.Comuna",
+      "pk": 17,
+      "fields": {
+        "nombre": "Comuna 17",
+        "region": 17
+      }
+    },
+    {
+      "model": "muebles.Comuna",
+      "pk": 1,
+      "fields": {
+        "nombre": "Comuna 1",
+        "region": 2
+      }
+    },
+    {
+      "model": "muebles.Comuna",
+      "pk": 2,
+      "fields": {
+        "nombre": "Comuna 2",
+        "region": 12
+      }
+    },
+    {
+      "model": "muebles.Comuna",
+      "pk": 20,
+      "fields": {
+        "nombre": "Comuna 20",
+        "region": 3
+      }
+    }
+  ]
+  

@@ -1,0 +1,41 @@
+{% extends 'base_muebles.html' %}
+
+{% block 'content' %}
+    {% if usuario.tipo_usuario == "arrendatario" %}
+        {% csrf_token %}
+        <h1 class="text-center">Bienvenido Arrendatario</h1>
+        <div class="container" style="margin-top: 20px;">
+            <div class="row">
+                <div class="col-md-4 mx-auto align-content-center" style="text-align: left;">
+                    <h2>{{ usuario.nombres }}</h2>
+                    <p>{{ usuario.apellidos }}</p>
+                    <p><strong>Rut: </strong> {{ usuario.rut }}</p>
+                    <p><strong>Dirección: </strong> {{ usuario.direccion }}</p>
+                    <p><strong>Teléfono: </strong> {{ usuario.telefono }}</p>
+                    <p><strong>Tipo de usuario: </strong> {{ usuario.tipo_usuario }}</p>
+                    <p><strong>Correo electrónico: </strong> {{ usuario.correo_electronico }}</p>
+                    <a href="{% url 'editar_perfil' usuario.id %}" class="btn btn-primary">Modificar datos</a>
+                    <a href="{% url 'index_muebles' %}" class="btn btn-secondary">Volver</a>
+                </div>
+            </div>
+        </div>
+    {% elif usuario.tipo_usuario == "arrendador" %}
+        {% csrf_token %}
+        <h1 class="text-center">Bienvenido Arrendador</h1>
+        <div class="container" style="margin-top: 20px;">
+            <div class="row">
+                <div class="col-md-4 mx-auto align-content-center" style="text-align: left;">
+                    <h2>{{ usuario.nombres }}</h2>
+                    <p>{{ usuario.apellidos }}</p>
+                    <p><strong>Rut: </strong> {{ usuario.rut }}</p>
+                    <p><strong>Dirección: </strong> {{ usuario.direccion }}</p>
+                    <p><strong>Teléfono: </strong> {{ usuario.telefono }}</p>
+                    <p><strong>Tipo de usuario: </strong> {{ usuario.tipo_usuario }}</p>
+                    <p><strong>Correo electrónico: </strong> {{ usuario.correo_electronico }}</p>
+                    <a href="{% url 'editar_perfil' usuario.id %}" class="btn btn-primary">Modificar datos</a>
+                    <a href="{% url 'index_muebles' %}" class="btn btn-secondary">Volver</a>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endblock %}
