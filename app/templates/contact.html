@@ -1,5 +1,3 @@
-<!-- templates/contact.html -->
-
 {% extends 'base.html' %}
 
 {% block content %}
@@ -11,14 +9,18 @@
                     <h2 class="h4 font-weight-bold">Información de contacto</h2>
                 </div>
                 <div class="col-md-6">
-                    <p><span>Teléfono:</span> <a>+56 9 4926 0699</a></p>
+                    <p><span>Teléfono:</span> <a href="tel:+56949260699">+56 9 4926 0699</a></p>
                 </div>
                 <div class="col-md-6">
-                    <p><span>Correo:</span> <a>h.fernandezmf@gmail.com</a></p>
+                    <p><span>Correo:</span> <a href="mailto:h.fernandezmf@gmail.com">h.fernandezmf@gmail.com</a></p>
                 </div>
-				<p>Para contactarse rapidamente conmigo puede enviarme un correo electronico o un wsp a mi correo de contacto o telefono de contacto</p>
+                <div class="col-md-12">
+                    <p>Para contactarse rápidamente conmigo puede enviarme un correo electrónico o un mensaje por WhatsApp a mi correo o teléfono de contacto.</p>
+                </div>
             </div>
-            {% comment %} <div class="row block-9 justify-content-center">
+            <!--
+            {% comment %}
+            <div class="row block-9 justify-content-center">
                 <div class="col-md-6 order-md-last pr-md-5">
                     <form method="post" action="{% url 'contacto' %}">
                         {% csrf_token %}
@@ -28,7 +30,9 @@
                         </div>
                     </form>
                 </div>
-            </div> {% endcomment %}
+            </div>
+            {% endcomment %}
+            -->
         </div>
     </section>
 </div>
